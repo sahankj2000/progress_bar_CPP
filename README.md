@@ -7,7 +7,7 @@ Progress bar header file for c++
 
 int i=0;
 while(i != 101){
-    progress(i,100);  // progress() if for o to n
+    progress(i,100);  // progress() is for 0 to n
     i++;
 }
 progress(i,100,10) // third parameter is bar length
