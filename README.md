@@ -13,7 +13,7 @@ while(i != 100){
 progress(i,100,10) // third parameter is bar length
 progress(i,100,10,4) // fourth parameter is style
 
-progress_range(100,-100,i) // works with both normal and reverse iteration for( i 100 to -100)
+progress_range(100,-100,i) // works with both normal and reverse iteration for( i : 100 to -100)
 progress_range(-100,100,i,10) // fourth parameter is bar length
 progress_range(-100,100,i,10,3) // fifth parameter is style
 </pre>
