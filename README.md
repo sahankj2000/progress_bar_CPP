@@ -6,9 +6,9 @@ Progress bar header file for c++
 #include "progress.hpp"
 
 int i=0;
-while(i != 100){
-    i++;
+while(i != 101){
     progress(i,100);
+    i++;
 }
 progress(i,100,10) // third parameter is bar length
 progress(i,100,10,4) // fourth parameter is style
